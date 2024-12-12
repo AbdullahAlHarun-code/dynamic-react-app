@@ -1,16 +1,15 @@
 {
-  "name": "hotel_booking",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<username>.github.io/<repository-name>",
+  "homepage": "https://AbdullahAlHarun-code.github.io/dynamic-react-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
